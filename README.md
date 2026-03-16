@@ -57,6 +57,8 @@ Some variables, particularly biomass measurements and weather variables, contain
 Key variables such as tree characteristics, wildfire locations, and weather conditions were largely complete and suitable for analysis.
 
 Forest, wildfire, and weather datasets were cleaned and merged to create a unified dataset and stores in S3/processed for furthur analysis.
+
+
 **EDA**
 
 Vegetation biomass is strongly associated with tree diameter and height, meaning larger trees contribute to higher wildfire fuel loads.
