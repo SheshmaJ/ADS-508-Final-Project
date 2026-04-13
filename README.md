@@ -15,6 +15,7 @@
 
 | 📑 Executive Summary | [View PDF](document/Executive%20Summary%20Presentation-%20Team%208.pdf) |
 
+| 🎥 Project Video | [Download Final Project Video](document/Final%20Project%20Video%20Presentaion-Team8.mp4) |
 
 ---
 
@@ -127,6 +128,9 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 - Top 10 highest-risk counties ranking
 - Risk distribution analysis and seasonal (monthly) analysis
 - County and city-level filtering
+
+| 🎥 Dashboard Demo | [download Dashboard demo](document/dashboard%20.mp4) |
+
 
 ---
 
