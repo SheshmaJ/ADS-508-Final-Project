@@ -95,6 +95,14 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 
 7. **Dashboard Preparation** — Derived fields such as risk_level, trimming_priority_score, is_high_risk, and seasonal features (fire_month, fire_month_name) were created. County and city information was added, and the final dataset was stored in S3 and locally for dashboard visualization.
 ---
+## 📌 Reproducibility
+
+- Ensure all required datasets (FIA, CAL FIRE, NOAA) are uploaded to Amazon S3 before running the notebooks.
+- To reproduce results, execute the notebooks in sequence within the AWS SageMaker environment, ensuring access to Amazon S3 and Athena:
+1. [Setup Environment](notebook/setup_environment.ipynb) — Configure dependencies and AWS setup  
+2. [Data Ingestion & Exploration](notebook/data%20ingestion%20and%20exploration.ipynb) — Load and explore raw data  
+3. [Data Cleaning & Processing](notebook/data_cleaning_processing.ipynb) — Clean and prepare dataset  
+4. [Model Training & Evaluation](notebook/model_training_evaluation.ipynb) — Train model and generate predictions
 
 ## 🔍 Key Insights
 
@@ -121,7 +129,17 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 
 ---
 
-## 🖥️ Dashboard Features
+## 🖥️ Dashboard
+
+Visualize model predictions and explore vegetation risk patterns across California using an interactive dashboard build with Plotly.
+
+### 🔗 Access
+- [Open Dashboard Notebook](dashboard/dashboard.ipynb) — Data exploration and visualization  
+- [Run Dashboard App](dashboard/app.py) — Interactive dashboard (Plotly)
+
+| 🎥 Dashboard Demo | [download Dashboard demo](document/dashboard%20.mp4) |
+
+### 🖥️ Dashboard Features
 
 - Interactive map of California with risk-based visualization
 - KPIs: High Risk Areas, % High Risk Coverage, Average Biomass, Total Plots Monitored
@@ -129,12 +147,9 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 - Risk distribution analysis and seasonal (monthly) analysis
 - County and city-level filtering
 
-| 🎥 Dashboard Demo | [download Dashboard demo](document/dashboard%20.mp4) |
-
-
 ---
 
-## Running the Dashboard
+## Running the Dashboard locally
 
 ### Prerequisites
 - Python 3.8+
@@ -160,7 +175,6 @@ Then open your browser and navigate to:
 http://localhost:8050
 ```
 
-> The dashboard reads from  the final predictions dataset. To regenerate predictions from scratch, run the full pipeline using `master_file.ipynb` or execute the notebooks step-by-step in the `notebooks/` folder
 ---
 
 ## 🏢 Target Users
