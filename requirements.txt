@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+boto3
+sagemaker
+plotly
+dash
+geopy
+sqlalchemy
+pyathena
