@@ -15,7 +15,6 @@
 
 | 📑 Executive Summary | [View PDF](document/Executive%20Summary%20Presentation-%20Team%208.pdf) |
 
-| 🎥 Project Video | [Watch Video](document/Final%20Project%20Video%20Presentation-Team8.mp4) |
 
 ---
 
