@@ -133,6 +133,8 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 
 Visualize model predictions and explore vegetation risk patterns across California using an interactive dashboard build with Plotly.
 
+![Dashboard Snapshot](images/snapshot%20of%20dashboard.PNG)
+
 ### 🔗 Access
 - [Open Dashboard Notebook](dashboard/dashboard.ipynb) — Data exploration and visualization  
 - [Run Dashboard App](dashboard/app.py) — Interactive dashboard (Plotly)
