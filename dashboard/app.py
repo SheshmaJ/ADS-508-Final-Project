@@ -11,7 +11,7 @@ import os
 app = dash.Dash(__name__)
 
 # Load data 
-df = pd.read_csv("dashboard/sample_prediction.csv")
+df = pd.read_csv("sample_prediction.csv")
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 
 RISK_MAP = {
