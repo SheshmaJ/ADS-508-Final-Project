@@ -722,6 +722,9 @@ def update_month_heatmap(county, city, risk):
     ])
 
 
-# Run the app
+# Expose Flask server for deployment
+server = app.server
+
+# Run locally
 if __name__ == "__main__":
     app.run(debug=True)
