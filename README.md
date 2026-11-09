@@ -211,6 +211,7 @@ Set risk thresholds to trigger email or SMS notifications. This allows utility t
 Use advanced spatial joins for better location mapping and apply hyperparameter tuning to improve generalization and reduce overfitting.
 ---
 
+### *The project was completed independently as part of my graduate coursework at the University of San Diego.*
 
 
 *University of San Diego — ADS 508 Final Project · Built on AWS · XGBoost · Plotly · Python*
