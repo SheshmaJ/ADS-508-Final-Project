@@ -17,6 +17,8 @@
 
 | 🎥 Project Video | [Download Final Project Video](document/Final%20Project%20Video%20Presentaion-Team8.mp4) |
 
+| 🚀 [Launch Interactive Dashboard](https://ads-508-final-project.onrender.com/)
+
 ---
 
 ## 📌 Problem Statement
@@ -134,6 +136,8 @@ Raw Data (S3) → Athena (join & query) → SageMaker (train + infer) → S3 (re
 Visualize model predictions and explore vegetation risk patterns across California using an interactive dashboard build with Plotly.
 
 ![Dashboard Snapshot](images/snapshot%20of%20dashboard.PNG)
+
+🚀 [Launch Interactive Dashboard](https://ads-508-final-project.onrender.com/)
 
 ### 🔗 Access
 - [Open Dashboard Notebook](dashboard/dashboard.ipynb) — Data exploration and visualization  
